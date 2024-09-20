@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+html {
+    background-color: rgb(67, 67, 67);
+    height: 1000px;
+}
+
+.navbar ul {
+    display: flex;
+    height: 50px;
+    list-style-type: none;
+    background-color: black;
+}
+
+.navbar ul li {
+    padding: 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 32px;
+    font-weight: 400;
+}
+
+.navbar ul li {
+    padding-top: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    font-size: 14px;
+}
+
+.navbar ul li a img {
+    margin-top: -9px;
+    margin-left: -18px;
+}
+
+.navbar li input {
+    height: 30px;
+    padding: 0px 10px;
+    width: 242px;
+    margin-top: -7px;
+    margin-left: 40rem;
+}
+
+.navbar ul li a:hover {
+    font-weight: 500;
+}
+
+.navbar ul i {
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-image: url('images/bg.jpg');
+    background-size: contain;
+    background-color: #000000;
+    height: 534.375px;
+    width: 950px;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 50px rgb(164, 164, 164);
+    border: 2px solid #bfbfbf;
+}
+
+.box h4 {
+    color: white;
+    font-size: 25px;
+    margin-left: 29px;
+    margin-top: 45px;
+}
+
+.musicList {
+    margin-top: 45px;
+    margin-left: 20px;
+
+}
+
+.m1 {
+    display: flex;
+    background-color: white;
+    border: 1px solid rgb(166, 188, 145);
+    width: 330px;
+    height: 17px;
+    margin-left: 49px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.m1 img {
+    border-radius: 10px;
+    margin-right: 11px;
+    height: 22px;
+    margin-top: -2px;
+    margin-left: 9px;
+}
+
+.m1 p {
+    margin-left: 70px;
+}
+
+.m1 i {
+    margin-left: 80px;
+    margin-top: 1px;
+}
+
+.playBar {
+    
+    height: 110px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 39px;
+    border: 1px solid wheat;
+    
+}
+
+.playBar input {
+    width: 95vw;
+    height: 10vh;
+    margin-left: 35px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: -6px;
+}
+
+.icon{
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icon button{
+    height: 31px;
+  width: 62px;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
